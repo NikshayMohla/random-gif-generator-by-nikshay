@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Spinner = () => {
-    return (
-        <div className='spinner'>
-            <p>Loading</p>
-        </div>
-    )
+  return (
+    <div>
+      <div className='spinner'></div>
+    </div>
+  )
 }
+
 export default Spinner
